@@ -23,6 +23,8 @@ class LinkedList:
             last_node = last_node.next
         last_node.next = new_node
 
+# This example of a linked list data structure is good for storing and managing a collection of elements that need to be accessed and manipulated sequentially. Linked lists are particularly useful when insertion and deletion of elements frequently occur, as they can easily accommodate changes in size without needing to resize memory allocation. 
+
 # 2. Stack
 
 class Stack:
@@ -42,4 +44,6 @@ class Stack:
 
     def is_empty(self):
         return len(self.items) == 0
+
+# This example of a stack data structure is good for implementing algorithms that require last-in, first-out (LIFO) behavior. Stacks are commonly used in programming for tasks such as reversing a list, evaluating arithmetic expressions, and backtracking in algorithms. This implementation of a stack allows for adding and removing items, checking the top item without removing it, and checking if the stack is empty.
 
