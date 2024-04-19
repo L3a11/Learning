@@ -16,7 +16,7 @@ def binary_search(arr, target):
     return -1
 
 # This Python code snippet shows an implementation of binary search algorithm that searches for a target value in a sorted array. Binary search is an efficient algorithm for finding a particular element in a sorted array by repeatedly dividing the search interval in half. This example is good for searching for a specific element in a sorted array. The binary search algorithm has a time complexity of O(log n) which makes it significantly faster than linear search for large arrays. It is commonly used in situations where efficient searching of sorted data is required, such as in database indexing, searching in large collections of data, or in algorithms that require searching operations on sorted arrays. 
-This code can be used in any scenario where you need to quickly find the index of a specific element in a sorted array.
+# This code can be used in any scenario where you need to quickly find the index of a specific element in a sorted array.
 
 # Quick sort
 
